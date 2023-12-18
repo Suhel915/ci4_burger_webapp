@@ -1,0 +1,9 @@
+CRITICAL - 2023-12-04 06:48:33 --> Invalid file: "newstory.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('newstory.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('newstory', [], true)
+ 3 APPPATH\Controllers\Admin.php(45): view('newstory')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->nstory()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
