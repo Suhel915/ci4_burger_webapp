@@ -120,3 +120,2022 @@ INFO - 2023-12-18 06:08:01 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-12-18 06:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-18 06:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-18 06:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:52:07 --> Call to undefined method App\Models\PagesModel::findNewlyCreatedPage
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(28): CodeIgniter\Model->__call('findNewlyCreatedPage', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 09:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:52:26 --> Call to undefined method App\Models\PagesModel::findNewlyCreatedPage
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(28): CodeIgniter\Model->__call('findNewlyCreatedPage', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:52:35 --> Call to undefined method App\Models\PagesModel::findNewlyCreatedPage
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(28): CodeIgniter\Model->__call('findNewlyCreatedPage', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 09:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:53:45 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:54:00 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 09:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:57:39 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:57:40 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:57:41 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:57:43 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:43 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:46 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:46 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:47 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:47 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:47 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:48 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:48 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:49 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:49 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:58:50 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:13 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:14 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:14 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:15 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:15 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:15 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:15 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:48 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:49 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 09:59:50 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:16 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:16 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:17 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:17 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:17 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:17 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:17 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:18 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:18 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:18 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:18 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:03:19 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:04:57 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:04:58 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:04:58 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:04:59 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:04:59 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:04:59 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:05:00 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:05:00 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:05:02 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:05:02 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:07:03 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:07:04 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:07:05 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:07:05 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:07:06 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 60
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(60): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:08:45 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:08:47 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:08:47 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:08:47 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:09:49 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:12:03 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:32 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:33 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:34 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:34 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:34 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:35 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:18:35 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:22 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:22 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:22 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:23 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:23 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:23 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:24 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:24 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:24 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:21:43 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:22:32 --> Too few arguments to function url_to(), 0 passed in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59 and exactly 1 expected
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:23:22 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:24:07 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:24:08 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:24:08 --> Argument 1 passed to url_to() must be of the type string, null given, called in C:\xampp\htdocs\tburger\app\Views\layout\header.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 480.
+ 1 APPPATH\Views\layout\header.php(59): url_to(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+ 9 APPPATH\Controllers\Home.php(43): view('homes', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 10:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:25:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1749.
+ 1 SYSTEMPATH\BaseModel.php(1749): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Pages))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('6', Object(App\Entities\Pages))
+ 5 APPPATH\Controllers\Page.php(41): CodeIgniter\BaseModel->save(Object(App\Entities\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->update('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 10:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:25:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1749.
+ 1 SYSTEMPATH\BaseModel.php(1749): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Pages))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('6', Object(App\Entities\Pages))
+ 5 APPPATH\Controllers\Page.php(41): CodeIgniter\BaseModel->save(Object(App\Entities\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->update('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 10:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:39:49 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 10:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:48:42 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:48:43 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 10:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:49:10 --> Trying to get property 'page_slug' of non-object
+in APPPATH\Views\Pages\show.php on line 31.
+ 1 APPPATH\Views\Pages\show.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'page_slug\' of non-object', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(17): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 10:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:50:55 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:00:54 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:09:15 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:10:21 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:13:14 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1749.
+ 1 SYSTEMPATH\BaseModel.php(1749): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Pages))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('10', Object(App\Entities\Pages))
+ 5 APPPATH\Controllers\Page.php(45): CodeIgniter\BaseModel->save(Object(App\Entities\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:13:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1749.
+ 1 SYSTEMPATH\BaseModel.php(1749): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Pages))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('10', Object(App\Entities\Pages))
+ 5 APPPATH\Controllers\Page.php(45): CodeIgniter\BaseModel->save(Object(App\Entities\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:13:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1749.
+ 1 SYSTEMPATH\BaseModel.php(1749): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Pages))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('10', Object(App\Entities\Pages))
+ 5 APPPATH\Controllers\Page.php(45): CodeIgniter\BaseModel->save(Object(App\Entities\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:26:11 --> The route for "home" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('home')
+ 2 APPPATH\Views\layout\header.php(60): url_to('home')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\layout\\header.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/header', null, true)
+ 6 APPPATH\Views\homes.php(1): CodeIgniter\View\View->include('layout/header')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\homes.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homes', [], true)
+10 APPPATH\Controllers\Home.php(43): view('homes', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->homes()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:55:23 --> Call to undefined method App\Models\PagesModel::findBySlug
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Page.php(83): CodeIgniter\Model->__call('findBySlug', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->displayPage('css', 'bootstrap.css.map')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:55:23 --> Call to undefined method App\Models\PagesModel::findBySlug
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Page.php(83): CodeIgniter\Model->__call('findBySlug', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->displayPage('js', 'bootstrap.bundle.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:55:24 --> Call to undefined method App\Models\PagesModel::findBySlug
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Page.php(83): CodeIgniter\Model->__call('findBySlug', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->displayPage('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:55:27 --> Call to undefined method App\Models\PagesModel::findBySlug
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Page.php(83): CodeIgniter\Model->__call('findBySlug', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->displayPage('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:57:33 --> Undefined variable: pages
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pages', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(86): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->displayPage('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 11:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:00:03 --> Call to undefined method App\Models\PagesModel::findNewlyCreatedPage
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->__call('findNewlyCreatedPage', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:00 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:03:00 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:44 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:03:44 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:47 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:47 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:51 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:51 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:54 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:03:54 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:59 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:03:59 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:04:02 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:04:02 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:04:04 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:04:04 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:11:47 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:11:48 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:13:06 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:13:06 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:14:40 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:14:40 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 12:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 12:15:23 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('js', 'bootstrap.bundle.js.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:15:23 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Pages\show.php on line 22.
+ 1 APPPATH\Views\Pages\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tburger\\app\\Views\\Pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Page.php(18): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->show('css', 'bootstrap.css.map')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-18 12:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

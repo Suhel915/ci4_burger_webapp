@@ -35,7 +35,7 @@ class UserModel extends BaseModel
         'status',
         'status_message',
         'active',
-        'last_active',
+        'last_active','role'
     ];
     protected $useTimestamps = true;
     protected $afterFind     = ['fetchIdentities'];
@@ -382,5 +382,22 @@ class UserModel extends BaseModel
             ->set('last_active', $last_active)
             ->where('id', $user->id)
             ->update();
+    }
+    public function getCurrentUserRole(): ?string
+    {
+        // Replace this logic with your actual authentication mechanism to fetch the user's role
+        // Example: Retrieve user ID from session and fetch the role from the database
+        $loggedInUserId = session()->get('user_id'); // Retrieve logged-in user ID from the session
+        
+        if ($loggedInUserId) {
+            // Replace 'role' with your actual column name for user roles
+            $user = $this->find($loggedInUserId, ['role']);
+            
+            if ($user) {
+                return $user['role']; // Return the user's role
+            }
+        }
+        
+        return null; // Return null if user not logged in or role not found
     }
 }

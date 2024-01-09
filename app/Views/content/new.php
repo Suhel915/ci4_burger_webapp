@@ -1,63 +1,69 @@
 <?= $this->include("admin/adminlayout/header"); ?>
 <div id="layoutSidenav_content">
-    <main>
-        <div class="container-fluid px-4">
+    <main class="theme">
+    <div class="container-fluid px-4">
             <div class="py-4">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-md-10 mt-3">
-                            <h3><b>Create Content</b></h3>
-                            <form method="post" action="<?= site_url("/createcontent") ?>"
+                        <div class="col-md-10">
+                            <div class="card">
+                            <h3 class="card-header "><b>Create Content</b></h3>
+                                <div class="card-body">
+                                <form method="post" action="<?= site_url("/createcontent") ?>"
                                 enctype="multipart/form-data">
-                                <div class="mb-3">
-                                    <label for="pages" class="form-label">Pages:</label>
-                                    <select name="pages" class="form-control" id="pages">
+                                <div class="row">
+                                <div class="col-6 mb-3">
+                                    <label for="page_id" class="form-label"><b>Pages:</b></label>
+                                    <select name="page_id" class="form-control" id="page_id">
                                         <option value="None">None</option>
                                         <?php foreach ($pages as $page): ?>
-                                            <option value="<?= $page->page_title; ?>">
+                                            <option value="<?= $page->pages_id; ?>" data-title="<?= $page->page_title; ?>">
                                                 <?= $page->page_title; ?>
                                             </option>
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="content_section" class="form-label">Content-Section:</label>
+                                <!-- <div id="result"></div> -->
+                                <div class="col-6 mb-3">
+                                    <label for="content_section" class="form-label"><b>Content-Section:</b></label>
                                     <select name="content_section" class="form-control" id="content_section">
+                       
                                         <option value="none">None</option>
                                         <option value="Section-A">Section-A</option>
                                         <option value="Section-B">Section-B</option>
                                         <option value="Section-C">Section-C</option>
                                         <option value="Section-D">Section-D</option>
                                         <option value="Section-E">Section-E</option>
+                                        <option value="Section-F">Section-F</option>
                                     </select>
                                 </div>
-
+                                </div>
                                 <div class="mb-3">
-                                    <label for="heading" class="form-label">Heading:</label>
+                                    <label for="heading" class="form-label"><b>Heading:</b></label>
                                     <input name="heading" type="text" class="form-control" id="heading">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="sub_heading" class="form-label">Sub-Heading:</label>
+                                    <label for="sub_heading" class="form-label"><b>Sub-Heading:</b></label>
                                     <input name="sub_heading" type="text" class="form-control" id="sub_heading">
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="main_content" class="form-label">Main Content</label>
+                                    <label for="main_content" class="form-label"><b>Main Content</b></label>
                                     <textarea name="main_content" class="form-control" id="main_content" cols="30"
                                         rows="5"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="additional_content" class="form-label">Additional Content:</label>
+                                    <label for="additional_content" class="form-label"><b>Additional Content:</b></label>
                                     <input name="additional_content" type="text" class="form-control"
                                         id="additional_content">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="content_image" class="form-label">Content Image:</label>
+                                    <label for="content_image" class="form-label"><b>Content Image:</b></label>
                                     <input type="file" name="content_image" class="form-control" id="content_image">
                                 </div>
-
+                               
                                 <!-- Primary-Button -->
-                                <div class="mb-3">
+                                <div class=" mb-3">
                                     <label for="p_button" class="form-label">Blue-Button</label><br>
                                     <input type="radio" id="blue-yes" name="p_button" value="yes"
                                         onclick="toggleVisibility()">
@@ -88,14 +94,17 @@
                                 <input type="text" class="form-control" placeholder="Button-Name" id="red-button-name">
                                 <input type="text" class="form-control" placeholder="URL Address" id="red-button-url">
                                 </div>
-                            
+                              
+
                                 <div class="mb-3">
-                                    <label for="back_image" class="form-label">Background Image:</label>
+                                    <label for="back_image" class="form-label"><b>Background Image:</b></label>
                                     <input type="file" name="back_image" class="form-control" id="back_image">
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,4 +131,23 @@
             hiddenBlock2.style.display = 'none';
         }
     }
+
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    var form = event.target;
+    var formData = new FormData(form);
+
+    fetch('store_data.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('result').innerHTML = data;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
 </script>

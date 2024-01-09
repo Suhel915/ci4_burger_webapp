@@ -15,10 +15,11 @@
 
 </head>
 
-<body class="sb-nav-fixed">
-    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+<body class="sb-nav-fixed ">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="<?= base_url() ?>">Burger House</a>
+        <a class="navbar-brand ps-3" href="<?= base_url() ?>"><b style="font-family: cursive; font-size:23px;">
+        <i class="fa fa-burger fa-xl"></i>Burger House</b></a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
                 class="fas fa-bars"></i></button>
@@ -27,7 +28,7 @@
             <div class="input-group">
                 <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
                     aria-describedby="btnNavbarSearch" />
-                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                <button class="btn btn-danger" id="btnNavbarSearch" type="button"><i
                         class="fas fa-search"></i></button>
             </div>
         </form>
@@ -69,12 +70,12 @@
                         </a>
                         <div class="collapse" id="collapseContent" aria-labelledby="headingOne">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="<?= base_url("/newcontent") ?>">Add Content</a>
-                                <a class="nav-link" href="<?= base_url("/showcontent") ?>">Show Content</a>
+                                <a class="nav-link" href="<?= base_url("/newcontent") ?>">New Content</a>
+                                <a class="nav-link" href="<?= base_url("/showcontent") ?>">Show All Content</a>
                             </nav>
                         </div>
 
-
+                  
                         <a class="nav-link collapsed" href="#collapsePages" data-bs-toggle="collapse"
                             aria-expanded="false" aria-controls="collapsePages">
                             <div class="sb-nav-link-icon"><i class="fas fa-folder"></i></div>
@@ -84,12 +85,12 @@
                         <div class="collapse" id="collapsePages" aria-labelledby="headingThree">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="<?= base_url("/newpage") ?>">Add Pages</a>
-                                <a class="nav-link" href="<?= base_url("/showpage") ?>">Show Pages</a>
+                                <a class="nav-link" href="<?= base_url("/showpage") ?>">Show All Pages</a>
                             </nav>
                         </div>
 
 
-
+                        <?php if(auth()->user()->role === "Admin"): ?>
 
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLogin"
                             aria-expanded="false" aria-controls="collapseLogin">
@@ -111,12 +112,13 @@
                                     <nav class="sb-sidenav-menu-nested nav">
                                         <a class="nav-link" href="<?= base_url("/login") ?>">Login</a>
                                         <a class="nav-link" href="<?= base_url("/register") ?>">Register</a>
-                                        <a class="nav-link" href="password.html">Forgot Password</a>
+                                        <!-- <a class="nav-link" href="password.html">Forgot Password</a> -->
+                                        <a class="nav-link" href="<?= base_url("/content/view_all_users") ?>">View All Users</a>
                                     </nav>
                                 </div>
                             </nav>
                         </div>
-
+                    <?php endif; ?>
                         <div class="sb-sidenav-menu-heading">Addons</div>
                         <a class="nav-link" href="charts.html">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
@@ -130,7 +132,9 @@
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    Start Bootstrap
+                    <?= auth()->user()->username; ?>
                 </div>
             </nav>
         </div>
+
+

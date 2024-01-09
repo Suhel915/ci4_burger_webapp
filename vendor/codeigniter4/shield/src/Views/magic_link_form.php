@@ -4,10 +4,13 @@
 
 <?= $this->section('main') ?>
 
-<div class="container d-flex justify-content-center p-5">
+<div class="container  d-flex justify-content-center p-5">
     <div class="card col-12 col-md-5 shadow-sm">
+    
+      
         <div class="card-body">
-            <h5 class="card-title mb-5"><?= lang('Auth.useMagicLink') ?></h5>
+              
+        <h5 class="card-title mb-5"><?= lang('Auth.useMagicLink') ?></h5>
 
                 <?php if (session('error') !== null) : ?>
                     <div class="alert alert-danger" role="alert"><?= session('error') ?></div>

@@ -387,9 +387,9 @@ font-family: "Bebas Neue";
 }
 .dot {
     
-    height: 1.5vw;
-    width: 1.5vw;
-    background-color: #bbb;
+    height: 1.5vw !important;
+    width: 1.5vw !important;
+    background-color: #ff8800 !important;
     border-radius: 50%;
     display: inline-block;
   }
@@ -583,4 +583,23 @@ padding-right: 1vw;
     padding: 2.0% 0px 0px 4.5%;
   
     border-radius: 1vw;
+  }
+
+  .story{
+    margin-top: 5vw;
+  }
+
+  .login{
+    background-image: url("../images/rectangle_6.jpg");
+    height: 776px;
+  }
+  
+  .card{
+    background-image: url(../images/theme2.png);
+    background-color: #ff8a0000;
+  }
+  .pstory{
+
+    white-space: pre-line;
+
   }

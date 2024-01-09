@@ -60,14 +60,14 @@
         <div class="container mt-4 mb-4 ">
             <div class="row">
 
-                <div class="burger_image_3 mt-2 col-md-6 ">
+                <div class="burger_image_3 mt-2 col-lg-6 col-md-6  ">
                     <div class="col-md-11">
                         <span class="head-2 mt-2">Try it today</span>
                         <br>
                         <span class="subhead-2">Most Popular Burger</span>
                     </div>
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-6 ">
                     <div class="row mt-2 justify-content-center">
                         <div class="image_3 col-md-11 mb-2 ">
                             <span class="head-2 mt-2">Try it today</span>
@@ -228,6 +228,88 @@
 
         </div>
     </section>
+
+
+    
+    <!-- Section-F -->
+
+
+    <section class="blog_w3ls py-5" id="blog">
+		    <div class="container py-xl-5 py-lg-3">
+			    <div class="title-section text-center mb-md-5 mb-4">
+				    <!-- <p class="w3ls-title-sub">Blog</p> -->
+				    <h3 class="">Our Latest <span>Post</span></h3>
+				    <p class="titile-para-text mx-auto">Every now and then, a new location, a new dish or a concept change can create an entirely new dining experience. Such is the case at Burger House. Burger House, Noida, Sector -28 is an oasis of delicious food 
+                                 and drink choices and of course, the best Grilled Burgers!
+</p>
+			    </div>
+			    <div class="row">
+				    <!-- blog grid -->
+				    <div class="col-lg-4 col-md-6">
+					    <div class="card border-0">
+						    <div class="card-header p-0">
+                            <img src="<?= base_url() ?>public/images/burger_2.png" alt="" class="img-blog rounded-circle img-fluid">
+						    </div>
+						    <div class="card-body text-center pt-5 mt-2">
+							    <h5 class="blog-title card-title mb-2">Joy</h5>
+							    <div class=" border-top border-bottom py-1 mb-3">
+								    <span>Saket, New Delhi - Jan 12</span>
+							    </div>
+							    <p>Burger House, This place is welcoming with charming service and dfood better than I have tasted since I was in India.</p>
+						    </div>
+					    </div>
+				    </div>
+				    <!-- //blog grid -->
+
+
+
+
+
+				    <!-- blog grid -->
+				    <div class="col-lg-4 col-md-6">
+					    <div class="card border-0">
+						    <div class="card-header p-0">
+                            <img src="<?= base_url() ?>public/images/burger_2.png" alt="" class="img-blog rounded-circle img-fluid">
+						    </div>
+						    <div class="card-body text-center pt-5 mt-2">
+							    <h5 class="blog-title card-title mb-2">Edwin</h5>
+							    <div class=" border-top border-bottom py-1 mb-3">
+								    <span>Sant Nagar, New Delhi - July 1</span>
+							    </div>
+    							<p>Great food and service, would highly recommend.Went there on mothering Sunday. Everything perfect. friendly staff.</p>
+    							
+						    </div>
+					    </div>
+				    </div>
+				    <!-- //blog grid -->
+
+
+
+                    
+				    <!-- blog grid -->
+				    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+					    <div class="card border-0">
+						    <div class="card-header p-0">
+    							<img src="<?= base_url() ?>public/images/burger_2.png" alt="" class="img-blog rounded-circle img-fluid">
+						    </div>
+						    <div class="card-body text-center pt-5 mt-2">
+    							<h5 class="blog-title card-title mb-2">Albert</h5>
+    							<div class=" border-top border-bottom py-1 mb-3">
+    								<span>Gurugram, Haryana - Oct 20 </span>
+    							</div>
+    							<p>We tried the Burger House for the first time last night and the food was great, freshly cooked very tasty and well presented.</p>
+    							
+						    </div>
+					    </div>
+				    </div>
+				    <!-- //blog grid -->
+
+              
+			    </div>
+		    </div>
+	    </section>
+
+
      
 <!-- Auto -->
 <?php foreach ($contents as $content): ?>

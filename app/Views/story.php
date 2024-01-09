@@ -3,9 +3,9 @@
 <section class="story">
 <div class="backstory-image"></div>
     <div class="container mt-3 mb-4">
-        <h3 class=""style="text-align :center">Our Story</h3>
+        <!-- <h3 class=""style="text-align :center">Our Story</h3> -->
     
-        <i class="fa fa-burger mt-2"><b>Crafting Deliciousness Since Day One</b></i>
+        <i class="fa fa-burger mt-2" style="letter-spacing: 4px;"><b>Crafting Deliciousness Since Day One</b></i>
 
         <p class="pstory mt-2">Welcome to our flavorful journey, where every bite tells a story. Our passion for burgers
             ignited years ago when two friends, <b>Alex</b> and <b>Sarah</b>, embarked on a culinary adventure. Fueled by a shared
@@ -42,11 +42,11 @@
             Join us on this gastronomic journey and indulge in the legacy of flavors that began with a simple dream - to
             craft the most extraordinary burger experience imaginable.
         </p>
-        <i class="fa fa-burger"><b> Welcome to Our Burger Haven!</b></i>
+        <i class="fa fa-burger" style="letter-spacing: 3px;"><b> Welcome to Our Burger Haven!</b></i>
     </div>
-
+<hr>
 </section>
-<section class="blog_w3ls py-5" id="blog">
+<section class="blog_w3ls py-3" id="blog">
 		    <div class="container py-xl-5 py-lg-3">
 			    <div class="title-section text-center mb-md-5 mb-4">
 				    <!-- <p class="w3ls-title-sub">Blog</p> -->

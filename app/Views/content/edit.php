@@ -1,23 +1,29 @@
 <?= $this->include("admin/adminlayout/header"); ?>
 <div id="layoutSidenav_content">
-    <main>
-        <div class="container-fluid px-4">
+    <main class="theme">
+     <div class="container-fluid px-4">
             <div class="py-4">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-md-10 mt-3">
-                            <h3><b>Edit Content</b></h3>
+                        <div class="col-md-10">
+                            <div class="card">
+                            <h3 class="card-header "><b>Edit Content</b></h3>
+                                <div class="card-body">
                         <form method="post" action="<?= site_url("/content/update/".$content->content_id) ?>" enctype="multipart/form-data">
-                        <div class="mb-3">
-                                    <label for="pages" class="form-label">Pages:</label>
-                                    <select name="pages" class="form-control" id="pages">
-                                        <option value="None">None</option>
-                                        <option value="Menu" <?= ($content->pages == 'Menu') ? 'selected' : ''; ?>>Menu</option>
-                                        <option value="Our-story" <?= ($content->pages == 'Our-story') ? 'selected' : ''; ?>>Our Story</option>
-                                        <option value="Contact-us" <?= ($content->pages == 'Contact-us') ? 'selected' : ''; ?>>Contact Us</option>
-                                    </select>
-                                </div>
-                                <div class="mb-3">
+                        <div class="row">
+                        <div class="col-6 mb-3">
+                                <label for="page_id" class="form-label">Pages:</label>
+                                <select name="page_id" class="form-control" id="page_id">
+                                    <option value="">Select Page</option>
+                                    <?php foreach ($pages as $page): ?>
+                                        <option value="<?= $page->pages_id; ?>">
+                                            <?= $page->page_title; ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+
+                                <div class="col-6 mb-3">
                                     <label for="content_section" class="form-label">Content Section:</label>
                                     <select name="content_section" class="form-control" id="content_section" value="<?= $content->content_section; ?>">
                                         <option value="none">None</option>
@@ -26,7 +32,9 @@
                                         <option value="Section-C" <?= ($content->content_section == 'Section-C') ? 'selected' : ''; ?>>Section-C</option>
                                         <option value="Section-D" <?= ($content->content_section == 'Section-D') ? 'selected' : ''; ?>>Section-D</option>
                                         <option value="Section-E" <?= ($content->content_section == 'Section-E') ? 'selected' : ''; ?>>Section-E</option>
+                                        <option value="Section-F" <?= ($content->content_section == 'Section-F') ? 'selected' : ''; ?>>Section-F</option>
                                     </select>
+                                </div>
                                 </div>
                     <div class="mb-3">
                         <label for="heading" class="form-label">Heading:</label>
@@ -82,6 +90,8 @@
                     
                         <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
+                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>

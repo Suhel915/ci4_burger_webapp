@@ -1,6 +1,6 @@
 <?= $this->include("admin/adminlayout/header"); ?>
 <div id="layoutSidenav_content">
-    <main>
+    <main class="theme">
         <div class="container-fluid px-4">
             <div class="py-4">
                 <div class="container">

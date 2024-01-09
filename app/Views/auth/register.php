@@ -1,4 +1,5 @@
 <?= $this->include("layout/header") ?>
+<section class="login">
     <div class="container d-flex justify-content-center mt-4 p-5">
         <div class="card col-12 col-md-5 shadow-sm">
         <div class="card-header">
@@ -59,4 +60,4 @@
             </div>
         </div>
     </div>
-
+</section>

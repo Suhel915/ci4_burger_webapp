@@ -12,7 +12,7 @@ class PagesModel extends Model
     protected $returnType       = \App\Entities\Pages::class;
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['page_title'];
+    protected $allowedFields    = ['page_title','slug'];
 
     // Dates
     protected $useTimestamps = false;
@@ -27,5 +27,27 @@ class PagesModel extends Model
     protected $skipValidation       = false;
     protected $cleanValidationRules = true;
 
+    public function insertOrUpdatePage($data)
+    {
+        if (isset($data['page_title'])) {
+            $data['slug'] = $this->createSlug($data['page_title']);
+        }
 
+        return $this->save($data);
+    }
+
+    private function createSlug($title)
+    {
+        return url_title($title, '-', true); 
+    }
+    public function findBySlug($slug)
+    {
+       
+        return $this->where('slug', $slug)->first();
+    }
+    public function contents()
+    {
+        return $this->hasMany(ContentModel::class, 'page_id', 'pages_id');
+    }
+  
 }

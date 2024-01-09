@@ -1,15 +1,23 @@
 <?= $this->include("admin/adminlayout/header"); ?>
 <div id="layoutSidenav_content">
-    <main>
-        <div class="container-fluid px-4">
+    <main class="theme">
+    <div class="container-fluid ">
             <div class="py-4">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 mt-3">
-                            <h1>List of Contents</h1>
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="card">
+                            <h3 class="card-header "><b>List of Content</b></h3>
+                                <div class="card-body">
+                            <form action="<?= site_url('/showcontent') ?>" method="get" class="form-inline">
+                            <div class="input-group col-3">
+                                <input type="text" name="search" class="form-control" placeholder="Search here" value="<?= $search ?>">
+                            </div>
+                            <button type="submit"class= "mt-2 btn btn-outline-primary">Search</button>
+                            </form>
                             <a href="<?= site_url("/newcontent") ?>">Create New Content</a>
                             <table class="table table-bordered table-hover mt-2">
-                                <thead>
+                                <thead class="table">
                                     <tr>
                                         <th>ID</th>
                                         <th>Heading</th>
@@ -18,10 +26,11 @@
                                         <th>Additional Content</th>
                                         <th>Content Image</th>
                                         <th>Content-Section</th>
-                                        <th>Blue Button</th>
-                                        <th>Red Button</th>
+                                        <!-- <th>Blue Button</th>
+                                        <th>Red Button</th> -->
                                         <th>Background Image</th>
                                         <th>Pages</th>
+                                        <th>Page ID</th>
                                         <th>Edit</th>
                                         <th>Delete</th>
                                     </tr>
@@ -29,8 +38,8 @@
                                 <tbody>
                                     <?php foreach ($contents as $content): ?>
                                         <tr>
-                                            <td>
-                                                <?= $content->content_id; ?>
+                                            <td >
+                                                <b><a href="<?= base_url("/showcontent/".$content->content_id) ?>"><?= $content->content_id; ?></a></b>
                                             </td>
                                             <td>
                                                 <?= $content->heading; ?>
@@ -45,38 +54,41 @@
                                                 <?= $content->additional_content; ?>
                                             </td>
                                             <td>
-                                                <?= $content->content_image; ?>
+                                            <?= (strlen( $content->content_image) > 10) ? substr( $content->content_image, 0, 10) . '...' :  $content->content_image ?>
+                                               
                                             </td>
                                             <td>
                                                 <?= $content->content_section; ?>
                                             </td>
+                                      
                                             <td>
-                                                <?= $content->p_button; ?>
-                                            </td>
-                                            <td>
-                                            <?= $content->d_button; ?>
-                                            </td>
-                                            <td><?=
-                                                $content->back_image;
-                                                ?>
+                                               <?= (strlen(  $content->back_image) > 10) ? substr(  $content->back_image, 0, 10) . '...' :   $content->back_image ?>
+                                               
                                             </td>
                                             <td><?=
                                                 $content->pages;
+                                            ?>
+                                            </td>
+                                            <td>
+                                                <?=
+                                                $content->page_id;
                                                 ?>
                                             </td>
                                             <td>
-                                                <a href="<?= site_url("/content/edit/".$content->content_id) ?>">Edit</a>
+                                                <a href="<?= site_url("/content/edit/".$content->content_id) ?>"><i class="fa fa-pencil-square fa-xl">Edit</i></a>
                                             </td>
                                             <td>
-                                                <a href="<?= site_url("/content/delete/".$content->content_id) ?>">Delete</a>
+                                                <a href="<?= site_url("/content/delete/".$content->content_id) ?>"><i class="fa-solid fa-trash fa-xl" style="color: #ff0000;">Delete</i></a>
                                             </td>
                                         </tr>
                                     <?php endforeach; ?>
                                 </tbody>
                             </table>
-
+                            <div class="pagination">
+                                <?= $pager->links() ?>
+                            </div>
                         </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
